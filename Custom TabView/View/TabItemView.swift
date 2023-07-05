@@ -16,7 +16,7 @@ struct TabItemView: View {
             Image(systemName: isSelected ? data.selectedImage : data.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 32, height: 32)
+                .frame(width: 30, height: 30)
                 .onAppear{
                     withAnimation(.default){
                         // Код, который требует анимации
@@ -27,7 +27,7 @@ struct TabItemView: View {
             
             Text(data.title)
                 .foregroundColor(isSelected ? .black : .gray)
-                .font(.system(size: 14))
+                .font(.system(size: 11))
         }
     }
 }

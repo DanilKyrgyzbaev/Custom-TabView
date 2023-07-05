@@ -10,7 +10,7 @@ import SwiftUI
 struct TabBottomView: View {
     let tabbarItems: [TabItemData]
     var height: CGFloat = 70
-    var width: CGFloat = UIScreen.main.bounds.width - 32
+    var width: CGFloat = UIScreen.main.bounds.width - 30
     @Binding var selectedIndex: Int
     
     var tabIndices: Range<Int> {
@@ -20,7 +20,7 @@ struct TabBottomView: View {
     var body: some View {
         HStack {
             Spacer()
-            
+    
             ForEach(tabIndices, id: \.self) { index in
                 let item = tabbarItems[index]
                 Button {

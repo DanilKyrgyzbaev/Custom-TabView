@@ -24,6 +24,9 @@
 		FAEE56ED2A53D94F0041A232 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE56EC2A53D94F0041A232 /* EmptyView.swift */; };
 		FAEE56EF2A53D99C0041A232 /* ChatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE56EE2A53D99C0041A232 /* ChatsView.swift */; };
 		FAEE56F12A53E2050041A232 /* AdvertiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE56F02A53E2050041A232 /* AdvertiseView.swift */; };
+		FAEE56F32A5415CC0041A232 /* CustomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE56F22A5415CC0041A232 /* CustomTabs.swift */; };
+		FAEE56F52A544F0A0041A232 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE56F42A544F0A0041A232 /* BottomTabView.swift */; };
+		FAEE56F72A5455A00041A232 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE56F62A5455A00041A232 /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		FAEE56EC2A53D94F0041A232 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		FAEE56EE2A53D99C0041A232 /* ChatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsView.swift; sourceTree = "<group>"; };
 		FAEE56F02A53E2050041A232 /* AdvertiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseView.swift; sourceTree = "<group>"; };
+		FAEE56F22A5415CC0041A232 /* CustomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabs.swift; sourceTree = "<group>"; };
+		FAEE56F42A544F0A0041A232 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
+		FAEE56F62A5455A00041A232 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,7 @@
 				FABAC9652A52DC960047D240 /* TabItemView.swift */,
 				FABAC9672A52DCD00047D240 /* TabBottomView.swift */,
 				FABAC9692A52DD000047D240 /* CustomTabView.swift */,
+				FAEE56F22A5415CC0041A232 /* CustomTabs.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -169,6 +176,8 @@
 				FAEE56EC2A53D94F0041A232 /* EmptyView.swift */,
 				FAEE56EE2A53D99C0041A232 /* ChatsView.swift */,
 				FAEE56F02A53E2050041A232 /* AdvertiseView.swift */,
+				FAEE56F42A544F0A0041A232 /* BottomTabView.swift */,
+				FAEE56F62A5455A00041A232 /* FavoritesView.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -306,12 +315,15 @@
 				FAEE56F12A53E2050041A232 /* AdvertiseView.swift in Sources */,
 				FABAC9682A52DCD00047D240 /* TabBottomView.swift in Sources */,
 				FAEE56EF2A53D99C0041A232 /* ChatsView.swift in Sources */,
+				FAEE56F52A544F0A0041A232 /* BottomTabView.swift in Sources */,
 				FAEE56EB2A53D9390041A232 /* ProfileView.swift in Sources */,
+				FAEE56F72A5455A00041A232 /* FavoritesView.swift in Sources */,
 				FAEE56E72A53D9090041A232 /* HomeView.swift in Sources */,
 				FABAC9642A52DC680047D240 /* TabItemData.swift in Sources */,
 				FABAC9662A52DC960047D240 /* TabItemView.swift in Sources */,
 				FABAC96A2A52DD000047D240 /* CustomTabView.swift in Sources */,
 				FAEE56ED2A53D94F0041A232 /* EmptyView.swift in Sources */,
+				FAEE56F32A5415CC0041A232 /* CustomTabs.swift in Sources */,
 				FABAC93B2A52D8180047D240 /* MainView.swift in Sources */,
 				FABAC9392A52D8180047D240 /* Custom_TabViewApp.swift in Sources */,
 				FAEE56E92A53D9230041A232 /* NotificationsView.swift in Sources */,
